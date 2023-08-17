@@ -3,11 +3,12 @@
 /**
  * _isalpha - A function that checks for alphabetic character
  * @c: main character
- * Retutn: 1 if c is a letter, Return 0 otherwise
+ * Retutn: 1 if c is alphhabet, Return 0 otherwise
  */
 
 int _isalpha(int c)
 {
+
 	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 	{
 	return (1); /* c is a letter, lowercase or uppercase */
