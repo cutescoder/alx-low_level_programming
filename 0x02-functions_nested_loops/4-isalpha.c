@@ -13,6 +13,6 @@ int _isalpha(int c)
 	return (1); /* c is a letter, lowercase or uppercase */
 	}
 
-	return (0); /* c is not a letter, lowercase or uppercase */
+	return (0); /* c is not a letter */
 
 }
